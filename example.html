@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equal Height Cards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdfdfd;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            max-width: 1420px
+        }
+
+        .card {
+            flex: 1;
+            /* Makes both cards equal width */
+            padding: 20px;
+            margin: 10px;
+            background-color: #ff6b6b;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid #333;
+            color: #333;
+        }
+
+.card-box{
+    display: flex;
+   
+}
+
+        .card h3 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .card p {
+    /* flex-grow: 1; */
+    margin-bottom: 20px;
+    min-height: 213px;
+}
+        button {
+            padding: 10px 20px;
+            background-color: #fff;
+            border: 1px solid #333;
+            cursor: pointer;
+        }
+        .card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Set a specific height or inherit parent height */
+}
+
+.card-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensures the image scales without distortion */
+}
+.card-heading{
+    flex: 1;
+}
+.btn{
+    width: 100%;
+    margin-block: 20px;
+}
+.box1{
+    flex: 1;
+}
+        button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card ">
+            <div class="card-box">
+                <div class="card-img box1">
+                    <img src="/img/Screenshot_2024-08-26_at_01.21.24_medium.jfif" alt="">
+
+                </div>
+                <div class="card-heading">
+                    <h3>Join Our Community Of Strategists</h3>
+                    <p>"Our content is carefully selected, written, and revised. We aim to simplify knowledge to the
+                        point where it is easily understood and presented clearly. Our mission is to help people evolve
+                        in their thinking until they reach sage-like wisdom."</p>
+                    
+                </div>
+            </div>
+            <button class="btn">Learn More</button>
+        </div>
+        <div class="card ">
+            <div class="card-box">
+                <div class="card-img box1">
+                    <img src="/img/handshake_medium.png" alt="">
+                </div>
+                <div class="card-heading">
+                    <h3>Fairness & Good Read Guarantee</h3>
+                    <p>If you face any issue with your order, or if you don't absolutely love any productf you face any
+                        issue with your order, or if you don't absolutely love any product we offer and believe you did
+                        not learn anything from it,If you face any issue with your order, or if you don't absolutely
+                        love any product we offer and believe you did not learn anything from itIf you face any issue
+                        with your order, or if you don't absolutely love any product we offer and believe you did not
+                        learn anything from it you deserve to get your money back without complications.</p>
+                  
+                </div>
+
+            </div>
+            <button class="btn">Learn More</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
