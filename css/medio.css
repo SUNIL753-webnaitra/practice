@@ -1,0 +1,147 @@
+@media screen and (max-width:576px) {
+    .jawlatt-news-source {
+        font-size: 11.01px;
+        line-height: 31.78px;
+    }
+    .jawlatt-img-size img{
+width: 20px;
+    }
+    .card-body a.text-decoration-none {
+        font-size: 11.5px;
+      
+    }
+    .jawlatt-img  a {
+        width: 100%;
+    }
+    .jawlatt-img  a img{
+       max-width:205px;
+         height: auto;
+          object-fit: cover;
+          width: 100%;
+    }
+    .jawlatt-mid-grey-cards{
+        overflow-x: hidden;
+    }
+    .jawlatt-time-text{
+        font-size: 12px;
+    }
+    .custom-padding-left {
+        padding-left: 0px;
+    }.jawlatt-bnr-mid-btm {
+        gap: 9px;
+      
+    }
+    /* .img-box{
+        max-width: 100%;
+        height: auto;
+        width: 205px;
+    } */
+    .Logistics-box2-h {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+      gap: 0px;
+    }
+    .Logistics-box2-h1:nth-child(2) {
+        grid-row: span 1;
+        margin-block: 10px;
+    }
+    .Logistics-box2-h1{
+       min-height:  300px;
+    }
+    .blog-cards {
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+    }
+}
+@media screen and (max-width:768px) {
+    .blog-heading-box h2 {
+        font-size: 30px;
+       
+    }
+    .blog-heading-box button {
+        font-size: 12px;
+     
+    }
+    .hero-img img {
+      display: none;
+    }
+}
+
+    @media screen and (max-width:991px) {
+
+        .contact-boxs {
+            display: block;
+            width: 100%;
+          
+        }
+        .contact-heading {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        .contact-form {
+            width: 100%;
+        }
+        .blog-cards {
+           
+            grid-template-columns: repeat(2 ,1fr);
+          
+        }
+        .Logistics-boxs {
+            display: block;
+            
+        }
+        .Logistics-box1 {
+        
+            width: 100%;
+        }
+        .Logistics-box2 {
+          
+            width: 100%;
+           
+        }
+        .hero-box .hero-heading h1 {
+            font-size:35px;
+        
+        }
+        .hero-box .hero-heading h1 span {
+            font-size: 35px;
+          
+        }
+        .hero-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .top-header {
+            display: none;
+        }
+        .bootom-header nav ul{
+            display: none;
+        }
+        .hero-btn .hero-btn2 {
+          
+            padding: 5px 8px;
+            border-radius: 8px;
+         display: inline-block;
+        }
+        .hero-btn {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .hero-btn .hero-btn1 {
+          
+            padding: 10px 4px;
+         
+            font-size: 13px;
+        }
+        .hero-btn .hero-btn2 {
+            font-size: 13px;
+        }
+        .Logistics-box2-h1 h2 {
+            font-size: 15px;
+        }
+        .Logistics-box2-h1 p {
+            font-size: 12px;
+        }
+    }
